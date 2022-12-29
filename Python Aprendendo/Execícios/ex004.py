@@ -1,0 +1,12 @@
+n = (input('Digite algo '))
+print('O tipo da váriavel digitada é',type(n))
+print('O valor digitado é vazio?', n.isspace())
+print('É um número? ', n.isnumeric())
+print('É um número ou uma letra? {}'.format(n.isalnum()) )
+print('Possui letra(s)? {}'.format(n.isalpha()))
+print('O valor digitado é um número decimal? ', n.isdecimal())
+print('O valor digitado está em maiúsculas', n.isupper())
+print('O valor digitado está em minúsculas', n.islower())
+print('O valor digitado está capitalizada', n.istitle())
+print('O valor digitado está capitalizada', n.isdigit
+)
