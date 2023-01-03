@@ -1,0 +1,1 @@
+'''Leia três retas e vê se formam um triângulo'''
