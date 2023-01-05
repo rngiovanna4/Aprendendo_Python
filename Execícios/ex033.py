@@ -3,6 +3,8 @@ a = int(input('Digite o 1º número\n'))
 b = int(input('Digite o 2º número\n'))
 c = int(input('Digite o 3º número\n'))
 
+'''
+==================================MINHA SOLUÇÃO===============================================
 if a>b and a>c and b>c:
     print('O maior é {} e o menor é: {}'.format(a,c))
 elif a>b and a>c and c>b:
@@ -16,5 +18,23 @@ elif c>a and c>b and b>a:
 elif c>a and c>b and a>b:
      print('O maior é {} e o menor é: {}'.format(c,b)) 
 else:
-    print('ocorreu um erro')
-print('os números digitados foram:',a,b,c)
+    print('ocorreu um erro') #Caso dois ou três números sejam iguais 
+print('os números digitados foram:',a,b,c)'''
+
+'''==================================SOLUÇÃO DO PROF==============================================='''
+menor = a
+if b < a and b < c :
+     menor = b
+if c < b and c < a :
+     menor = c
+
+maior = a
+if b > a and b > c :
+     maior = b
+if c > b and c >a :
+     maior = c
+
+if menor == maior :
+     print('Os valores são iguais')
+else :
+     print('O menor valor é {} e o maior é {}'.format(menor, maior))
