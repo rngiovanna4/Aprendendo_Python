@@ -1,0 +1,1 @@
+'''Faça o computador jogar jokenpô com você'''

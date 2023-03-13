@@ -1,0 +1,1 @@
+'''Refazer o desafio 35 e complementar definindo se o triâgulo é definido como Equilátero (todos os lados iguais), Isóceles (dois lados iguais) e Escaleno (lados diferentes)'''

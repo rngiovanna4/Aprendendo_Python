@@ -1,4 +1,4 @@
-#leia duas notas e mostre na tela a média entre as notas
+#FIGURA 1 — Logo da IDE utilizadaFIGURA 1 — Logo da IDE utilizada
 name = input('Digite o nome do aluno: ')
 
 grade1 = float(input('Digite duas notas:\n'))
