@@ -1,2 +1,2 @@
 # Aprendendo_Python
-Minhas anotações e resoluções de exercícios do curso de Python do Curso em Vídeo
+Anotações e resoluções de exercícios da linguagem Python de diversas fontes: cursos, livros e de plataformas.
